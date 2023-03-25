@@ -1,0 +1,949 @@
+                                            /* Applying Same font to over-all page through body tag */
+                                            
+                                            body {
+                                                font-family: "Helvetica Neue", Helvetica, Arial, Verdana, Sans-serif !important;
+                                            }
+                                            /* Header ID */
+                                            
+                                            #header {
+                                                /* border: 3px solid white; */
+                                            }
+                                            /*Left Division*/
+                                            
+                                            .left {
+                                                /* border: 2px solid black; */
+                                                display: inline-block;
+                                                position: absolute;
+                                                left: 34px;
+                                                top: 11px;
+                                                width: 460px;
+                                            }
+                                            /* List in Left Division*/
+                                            
+                                            .nav li {
+                                                display: inline;
+                                                padding: 1%;
+                                                line-height: 0%;
+                                                /* padding: 0% 3px */
+                                            }
+                                            /*Anchor tag Left Division*/
+                                            
+                                            .nav a {
+                                                text-decoration: none;
+                                                color: black;
+                                            }
+                                            
+                                            #header .left .nav li a:hover {
+                                                text-decoration: underline;
+                                            }
+                                            /*Middle Division*/
+                                            
+                                            .mid {
+                                                /* border: 2px solid black; */
+                                                width: 680px;
+                                                margin: 11px auto;
+                                                display: block;
+                                            }
+                                            /*Right Division*/
+                                            
+                                            .right {
+                                                /* border: 2px solid black; */
+                                                display: inline-block;
+                                                position: absolute;
+                                                right: 34px;
+                                                top: 11px;
+                                                width: 372px;
+                                            }
+                                            /* List in Right Division*/
+                                            
+                                            .right .nave li {
+                                                text-align: right;
+                                                display: inline-block;
+                                            }
+                                            /* Anchor tag in Right Division*/
+                                            
+                                            .right .nav a {
+                                                text-decoration: none;
+                                                text-align: right;
+                                                display: inline-block;
+                                                padding: 0% 3px
+                                            }
+                                            
+                                            #header .right .nav li a:hover {
+                                                text-decoration: underline;
+                                            }
+                                            
+                                            .SelectButtons {
+                                                border: none;
+                                                cursor: pointer;
+                                            }
+                                            /* Line for separation after Header */
+                                            
+                                            .line {
+                                                margin-top: 3%;
+                                                border: 2px solid gray;
+                                            }
+                                            /* Container1 for next left,mid,right div */
+                                            
+                                            .container1 {
+                                                /* border: 2px solid red; */
+                                                height: 90px;
+                                            }
+                                            /* Second Left Division */
+                                            
+                                            .container1 .left {
+                                                /* border: 2px solid blue; */
+                                                display: inline;
+                                                margin: 83px auto;
+                                                height: 130px;
+                                                width: 150px;
+                                            }
+                                            /* Second Left Division Image*/
+                                            
+                                            .container1 .left img {
+                                                width: 141px;
+                                                padding: 0px 28px;
+                                                margin: -27px;
+                                                display: inline-block;
+                                                position: absolute;
+                                                cursor: pointer;
+                                            }
+                                            /* Shop by Category   */
+                                            
+                                            .shop {
+                                                display: inline-block;
+                                                position: relative;
+                                                margin-left: 2px;
+                                            }
+                                            
+                                            .shop>#ShopByCategories {
+                                                margin-left: 183px;
+                                                margin-top: 29px;
+                                                height: 55px;
+                                                width: 140px;
+                                                display: inline-block;
+                                                border: none;
+                                                color: #555;
+                                            }
+                                            
+                                            .shop>#ShopByCategories:hover {
+                                                color: blue;
+                                                cursor: pointer;
+                                            }
+                                            /* Second Middle Division */
+                                            
+                                            .container1 .Mid {
+                                                /* border: 2px solid green; */
+                                                margin: -45px 388px;
+                                                width: 55px;
+                                                height: 46px;
+                                                display: block;
+                                                cursor: text;
+                                            }
+                                            /* Search Box */
+                                            
+                                            .container1 .Mid input {
+                                                width: 603px;
+                                                display: inline-block;
+                                                margin: -25px -47px;
+                                                padding: 14px;
+                                                cursor: text;
+                                                border: 2px solid black;
+                                                font-size: 14px;
+                                                margin-top: -9px;
+                                            }
+                                            /* Giving Cursor:text for SearchBox  */
+                                            
+                                            .container1 .Mid input:hover {
+                                                cursor: text;
+                                            }
+                                            /* All Categories */
+                                            
+                                            .container1 #AllCat button {
+                                                display: inline-block;
+                                                margin-left: 944px;
+                                                margin-top: -10px;
+                                                height: 46px;
+                                                width: 153px;
+                                                border: 2px solid black;
+                                            }
+                                            /* Second Right Division */
+                                            
+                                            .container1 .Right {
+                                                /* border: 2px solid khaki; */
+                                                display: inline-block;
+                                                margin-top: 67px;
+                                                height: 45px;
+                                                position: absolute;
+                                                margin-left: 0;
+                                            }
+                                            /* Search Button */
+                                            
+                                            .container1 .Right #Search {
+                                                text-shadow: none;
+                                                border-radius: 0;
+                                                background: 0;
+                                                padding: 8px 16px;
+                                                font-size: 14px;
+                                                min-width: 168px;
+                                                height: 45px;
+                                                font-weight: normal;
+                                                background-color: blue;
+                                                color: white;
+                                                cursor: pointer;
+                                                border: none;
+                                                margin-left: 3%;
+                                                width: 184px;
+                                                margin-top: 7px;
+                                            }
+                                            /* Advanced Button */
+                                            
+                                            .container1 .Right #Advanced {
+                                                border: none;
+                                                text-decoration: none;
+                                                margin: auto 52px;
+                                                font-size: 14px;
+                                            }
+                                            
+                                            .container1 .Right #Advanced:hover {
+                                                color: blue;
+                                            }
+                                            /* Line of Separation after SearchBox */
+                                            
+                                            #two {
+                                                margin-top: 0%;
+                                                border: 2px solid gray;
+                                            }
+                                            /* Menu Bar */
+                                            
+                                            .Menubar {
+                                                /* border: 2px solid red; */
+                                                text-align: center;
+                                                display: inline-block;
+                                                height: 50px;
+                                                width: 100%;
+                                                position: relative;
+                                                padding-bottom: 2px;
+                                                margin-bottom: 30px;
+                                            }
+                                            /* <ul> tag class */
+                                            
+                                            .menu {
+                                                list-style: none;
+                                            }
+                                            
+                                            .menu li {
+                                                display: inline-block;
+                                                padding: 7px;
+                                                margin-bottom: 2px;
+                                            }
+                                            
+                                            .menu a {
+                                                text-decoration: none;
+                                                color: #555;
+                                            }
+                                            /* Banners for Offers */
+                                            
+                                            #banner {
+                                                border: 2px solid black;
+                                                background-color: blanchedalmond;
+                                                height: 330px;
+                                                width: 100%;
+                                                margin-top: -37px;
+                                                background-image: url(https://img.freepik.com/free-photo/orange-copy-space-background-with-sale-idea_23-2148305925.jpg?w=826&t=st=1678707591~exp=1678708191~hmac=c776902126b5e57a9dbe0f04713f3814798a61b749c2d5da6aa4c0c7d59f96d2);
+                                                background-repeat: no-repeat;
+                                                background-size: 100%;
+                                                position: relative;
+                                            }
+                                            /* Shop now button on banner */
+                                            
+                                            #banner>button {
+                                                float: left;
+                                                height: 52px;
+                                                width: 163px;
+                                                margin-top: 160px;
+                                                margin-left: 136px;
+                                                background: none;
+                                                font-size: 25px;
+                                                font-weight: bold;
+                                            }
+                                            
+                                            #banner>button:hover {
+                                                background-color: white;
+                                                cursor: pointer;
+                                            }
+                                            
+                                            #banner>button>a {
+                                                text-decoration: none;
+                                                color: black;
+                                            }
+                                            /* Heavy Round Tipped Arrow in Shop now Button */
+                                            
+                                            #RightArrow {
+                                                font-size: 21px;
+                                                font-weight: bold;
+                                            }
+                                            /* Daily Deals and See All Links */
+                                            
+                                            .DailyDealsClass {
+                                                /* border: 2px solid black; */
+                                                height: 58px;
+                                                width: 100%;
+                                                position: relative;
+                                                /* background-color: tomato; */
+                                            }
+                                            
+                                            .DailyDealsList li {
+                                                list-style: none;
+                                                display: inline;
+                                            }
+                                            
+                                            .DailyDealsList a {
+                                                text-decoration: none;
+                                                color: black;
+                                                font-size: 30px;
+                                                padding: 17px;
+                                                padding-bottom: 3px;
+                                            }
+                                            
+                                            .DailyDealsList a:hover {
+                                                text-decoration: underline;
+                                            }
+                                            /* Right Arrow after see all link */
+                                            
+                                            .DailyDealsList li #RightArrow2 {
+                                                font-size: 30px;
+                                                margin-left: -21px;
+                                            }
+                                            /* Container 3 for offers */
+                                            
+                                            .container3 {
+                                                /* border: 2px solid black; */
+                                                height: 400px;
+                                                width: 100%;
+                                                /* below 3 are important properties for horizontal scroll bar */
+                                                overflow-x: auto;
+                                                overflow-y: hidden;
+                                                white-space: nowrap;
+                                            }
+                                            /* 10 sub-divisions in container3  */
+                                            
+                                            .container3 .offers {
+                                                border: 2px solid white;
+                                                height: 300px;
+                                                width: 250px;
+                                                display: inline-block;
+                                                margin: 1%;
+                                            }
+                                            /* #pricecontainer {
+                border: 2px solid black;
+                height: 50px;
+                width: 100%;
+                position: absolute;
+                background-color: tomato;
+            } */
+                                            /* price for products */
+                                            
+                                            #pricecontainer .price {
+                                                border: 2px solid white;
+                                                height: 30px;
+                                                width: 250px;
+                                                display: inline-block;
+                                                margin: 1%;
+                                                overflow-x: auto;
+                                                overflow-y: hidden;
+                                                white-space: nowrap;
+                                                font-size: 20px;
+                                                /* font-weight: bold; */
+                                                text-align: center;
+                                            }
+                                            /* Popular Destination Button */
+                                            
+                                            #populardestination {
+                                                /* border: 2px solid black;
+                background-color: tomato; */
+                                                width: 100%;
+                                                height: 50px;
+                                                position: relative;
+                                            }
+                                            
+                                            .populardestinationclass>li {
+                                                list-style: none;
+                                                display: inline;
+                                                text-decoration: none;
+                                            }
+                                            
+                                            #boldcontent {
+                                                font-weight: bold;
+                                            }
+                                            
+                                            .populardestinationclass>li>a {
+                                                text-decoration: none;
+                                                padding: 1%;
+                                                font-size: 30px;
+                                                color: black;
+                                            }
+                                            
+                                            .populardestinationclass>li>a:hover {
+                                                text-decoration: underline;
+                                            }
+                                            
+                                            #RightArrow3 {
+                                                font-size: 30px;
+                                                margin-left: -21px;
+                                            }
+                                            
+                                            .container4 {
+                                                /* border: 2px dashed black; */
+                                                /* background-color: khaki; */
+                                                width: 100%;
+                                                height: 240px;
+                                            }
+                                            
+                                            .container4>.circularoffers {
+                                                height: 160px;
+                                                width: 160px;
+                                                /* border: 2px solid black; */
+                                                /* background-color: darkgoldenrod; */
+                                                display: inline-block;
+                                                margin: 1%;
+                                                margin-left: 2%;
+                                                border-radius: 50%;
+                                            }
+                                            
+                                            .circularoffers>img {
+                                                height: 160px;
+                                                width: 160px;
+                                                border-radius: 50%;
+                                            }
+                                            /* #Pricecointainer2 {
+                height: 50px;
+                width: 100%;
+                background-color: aqua;
+            } */
+                                            /* Names for Circular Offers */
+                                            
+                                            #Pricecointainer2>.price {
+                                                /* border: 2px solid black; */
+                                                height: 30px;
+                                                width: 160px;
+                                                display: inline-block;
+                                                margin: 1%;
+                                                /* overflow-x: auto;
+                overflow-y: hidden;
+                white-space: nowrap; */
+                                                font-size: 18px;
+                                                text-align: center;
+                                                margin-left: 2%;
+                                                position: relative;
+                                            }
+                                            
+                                            #Pricecointainer2>.price:hover {
+                                                text-decoration: underline;
+                                                cursor: pointer;
+                                            }
+                                            /* Footer */
+                                            
+                                            footer {
+                                                height: 557px;
+                                                /* border: 2px solid greenyellow; */
+                                                width: 100%;
+                                            }
+                                            /*             
+            .footerdivisions {
+                height: 200px;
+                width: 200px;
+                border: 2px solid black;
+                display: inline-block;
+            } */
+                                            /* FooterBuy Division Started */
+                                            
+                                            #FooterBuy {
+                                                /* border: 2px solid black; */
+                                                margin-left: 5%;
+                                                margin-top: 5%;
+                                                height: 200px;
+                                                width: 250px;
+                                                position: relative;
+                                                display: inline-block;
+                                            }
+                                            
+                                            #FooterBuy h2 {
+                                                color: gray;
+                                                font-weight: bold;
+                                                font-size: 18px;
+                                            }
+                                            
+                                            #FooterBuy>li {
+                                                list-style: none;
+                                                line-height: 25px;
+                                                font-size: small;
+                                            }
+                                            
+                                            #FooterBuy>li>a {
+                                                text-decoration: none;
+                                                color: gray;
+                                            }
+                                            
+                                            #FooterBuy>li>a:hover {
+                                                text-decoration: underline;
+                                                cursor: pointer;
+                                            }
+                                            /* FooterBuy Division Ended */
+                                            /* FooterSell Division Started */
+                                            
+                                            #SellFooter {
+                                                height: 156px;
+                                                width: 100px;
+                                                /* border: 2px solid black; */
+                                                display: inline-block;
+                                                margin-left: 5%;
+                                                margin-top: 5%;
+                                                position: absolute;
+                                            }
+                                            
+                                            #SellFooter h2 {
+                                                font-weight: bold;
+                                                color: grey;
+                                                font-size: 18px;
+                                            }
+                                            
+                                            #SellFooter li {
+                                                list-style: none;
+                                                font-size: small;
+                                                line-height: 25px;
+                                            }
+                                            
+                                            #SellFooter li a {
+                                                text-decoration: none;
+                                                color: gray;
+                                            }
+                                            
+                                            #SellFooter li a:hover {
+                                                text-decoration: underline;
+                                                cursor: pointer;
+                                            }
+                                            /* End of SellFooter */
+                                            /* Start of Stay connected */
+                                            
+                                            #Stayconnected {
+                                                height: 156px;
+                                                width: 189px;
+                                                /* border: 2px solid black; */
+                                                display: inline-block;
+                                                margin-left: 18.7%;
+                                                margin-top: 5%;
+                                                position: absolute;
+                                            }
+                                            
+                                            #Stayconnected h2 {
+                                                color: gray;
+                                                font-size: 18px;
+                                            }
+                                            
+                                            #Stayconnected li {
+                                                list-style: none;
+                                                font-size: small;
+                                                line-height: 30px;
+                                            }
+                                            
+                                            #Stayconnected li a {
+                                                text-decoration: none;
+                                                color: gray;
+                                            }
+                                            
+                                            #Stayconnected li a:hover {
+                                                text-decoration: underline;
+                                                cursor: pointer;
+                                            }
+                                            
+                                            #Stayconnected li a img {
+                                                height: 20px;
+                                                width: 20px;
+                                                float: left;
+                                                filter: grayscale(100%);
+                                            }
+                                            /* End of Stay Connected */
+                                            
+                                            #AbouteBay {
+                                                /* border: 2px solid black; */
+                                                position: absolute;
+                                                margin-left: 58%;
+                                                margin-top: -13%;
+                                            }
+                                            
+                                            #AbouteBay h2 {
+                                                color: gray;
+                                                font-weight: bold;
+                                                font-size: 18px;
+                                            }
+                                            
+                                            #AbouteBay li {
+                                                list-style: none;
+                                                font-size: small;
+                                                line-height: 25px;
+                                            }
+                                            
+                                            #AbouteBay li a {
+                                                text-decoration: none;
+                                                color: gray;
+                                            }
+                                            
+                                            #AbouteBay li a:hover {
+                                                text-decoration: underline;
+                                                cursor: pointer;
+                                            }
+                                            /* End od Division About eBay */
+                                            /* Start of Division Help & Contact */
+                                            
+                                            #HelpContact {
+                                                /* border: 2px solid black; */
+                                                margin-left: 75%;
+                                                margin-top: -13%;
+                                                position: absolute;
+                                            }
+                                            
+                                            #HelpContact h2 {
+                                                color: gray;
+                                                font-weight: bold;
+                                                font-size: 18px;
+                                            }
+                                            
+                                            #HelpContact li {
+                                                list-style: none;
+                                                line-height: 25px;
+                                                font-size: small;
+                                            }
+                                            
+                                            #HelpContact li a {
+                                                text-decoration: none;
+                                                color: gray;
+                                            }
+                                            
+                                            #HelpContact li a:hover {
+                                                text-decoration: underline;
+                                                cursor: pointer;
+                                            }
+                                            /* End of Division Help & Contact */
+                                            /* Start of Division Tools */
+                                            
+                                            #Tools {
+                                                /* border: 2px solid black; */
+                                                margin-left: 25%;
+                                                margin-top: -2%;
+                                                height: 200px;
+                                                width: 159px;
+                                                position: absolute;
+                                            }
+                                            
+                                            #Tools h2 {
+                                                color: gray;
+                                                font-weight: bold;
+                                                font-size: 18px;
+                                            }
+                                            
+                                            #Tools li {
+                                                list-style: none;
+                                                line-height: 25px;
+                                                font-size: small;
+                                            }
+                                            
+                                            #Tools li a {
+                                                text-decoration: none;
+                                                color: gray;
+                                            }
+                                            
+                                            #Tools li a:hover {
+                                                text-decoration: underline;
+                                                cursor: pointer;
+                                            }
+                                            /* End of Division Tools */
+                                            /* Start of Division CommunityCommunity */
+                                            
+                                            #Community {
+                                                /* border: 2px solid black; */
+                                                margin-left: 75%;
+                                                margin-top: -5%;
+                                                position: absolute;
+                                            }
+                                            
+                                            #Community h2 {
+                                                color: gray;
+                                                font-weight: bold;
+                                                font-size: 18px;
+                                            }
+                                            
+                                            #Community li {
+                                                list-style: none;
+                                                line-height: 25px;
+                                                font-size: small;
+                                            }
+                                            
+                                            #Community li a {
+                                                text-decoration: none;
+                                                color: gray;
+                                            }
+                                            
+                                            #Community li a :hover {
+                                                text-decoration: underline;
+                                                cursor: pointer;
+                                            }
+                                            /* End of Division Community */
+                                            /* Start of Division Copyrights */
+                                            
+                                            #copyrights {
+                                                /* border: 2px solid black; */
+                                                margin-left: 5%;
+                                                margin-top: 16%;
+                                                position: absolute;
+                                            }
+                                            
+                                            #copyrights span {
+                                                font-size: 15px;
+                                                font-weight: lighter;
+                                                color: rgb(95, 93, 93);
+                                            }
+                                            
+                                            #copyrights li {
+                                                display: inline;
+                                                list-style: none;
+                                                font-size: small;
+                                            }
+                                            
+                                            #copyrights li a {
+                                                text-decoration: none;
+                                                font-size: small;
+                                                color: gray;
+                                            }
+                                            
+                                            #copyrights li a:hover {
+                                                text-decoration: underline;
+                                                cursor: pointer;
+                                            }
+                                            /* --------- For Responsiveness --------- */
+                                            
+                                            @media screen and (min-width: 555px) {
+                                                body {
+                                                    /* background-color: lightgreen; */
+                                                }
+                                                .left {
+                                                    top: -11px;
+                                                    left: 0px;
+                                                }
+                                                .shop {
+                                                    margin-left: -45;
+                                                }
+                                                .shop>#ShopByCategories {
+                                                    width: 53px;
+                                                }
+                                                .container1 .Mid input {
+                                                    margin: -11px -197px;
+                                                    width: 152px;
+                                                }
+                                                .container1 .Right #Search {
+                                                    min-width: 92px;
+                                                    margin-top: -24px;
+                                                }
+                                                .container4 {
+                                                    width: 299px;
+                                                }
+                                            }
+                                            
+                                            @media screen and (min-width: 763px) {
+                                                body {
+                                                    /* background-color: rgb(144, 238, 210); */
+                                                }
+                                                .right {
+                                                    right: -26px;
+                                                }
+                                                .container1 .Right {
+                                                    margin-top: 87px;
+                                                }
+                                                .container1 .Right #Search {
+                                                    min-width: -109px;
+                                                    margin-top: -186px;
+                                                    width: 0px;
+                                                }
+                                                .container1 .Mid input {
+                                                    margin: -12px -197px;
+                                                    width: 211px;
+                                                }
+                                                #Tools {
+                                                    margin-left: 5;
+                                                }
+                                                #SellFooter {
+                                                    margin-left: -4;
+                                                }
+                                                #AbouteBay {
+                                                    /* border: 2px solid black; */
+                                                    margin-left: 33%;
+                                                    margin-top: -10%;
+                                                }
+                                                #HelpContact {
+                                                    /* border: 2px solid black; */
+                                                    margin-left: 80%;
+                                                    margin-top: -27%;
+                                                }
+                                                #Community {
+                                                    margin-left: 80%;
+                                                }
+                                                #copyrights {
+                                                    margin-top: 32%;
+                                                }
+                                            }
+                                            
+                                            @media only screen and (min-device-width: 763px) and (max-device-width: 864px) {
+                                                .container1 .Mid input {
+                                                    width: 333px;
+                                                }
+                                                .container1 .Right {
+                                                    margin-top: 91px;
+                                                }
+                                                .container1 .Right #Search {
+                                                    margin-left: 33px;
+                                                }
+                                                #Pricecointainer2>.price {
+                                                    margin-top: 2px;
+                                                }
+                                                #AbouteBay {
+                                                    margin-left: 30%;
+                                                    margin-top: -2%;
+                                                }
+                                                #HelpContact {
+                                                    margin-top: -24px;
+                                                }
+                                                #Community {
+                                                    margin-top: -4%;
+                                                }
+                                                #copyrights {
+                                                    margin-top: 34%;
+                                                }
+                                            }
+                                            
+                                            @media screen and (min-width: 916px) {
+                                                .container1 .Mid input {
+                                                    margin: -13px -197px;
+                                                    width: 385px;
+                                                }
+                                            }
+                                            
+                                            @media screen and (min-width: 1000px) {
+                                                .container1 .Mid input {
+                                                    margin: -13px -197px;
+                                                    width: 469px;
+                                                }
+                                                .container1 .Right {
+                                                    margin-top: 94px;
+                                                }
+                                                .container1 #AllCat button {
+                                                    margin-top: -14px;
+                                                    margin-left: 660px;
+                                                }
+                                                .container1 .Right {
+                                                    margin-top: 97px;
+                                                }
+                                            }
+                                            
+                                            @media screen and (min-width: 1400px) {
+                                                .container1 #AllCat button {
+                                                    margin-left: 893px;
+                                                    margin-top: -22px;
+                                                }
+                                                .container1 .Mid input {
+                                                    margin: -20px -197px;
+                                                    width: 702px;
+                                                }
+                                                container1 .Right {
+                                                    margin-top: 71px;
+                                                }
+                                                .container4 {
+                                                    width: 1649px;
+                                                }
+                                                #HelpContact {
+                                                    margin-top: -207px;
+                                                    width: 129px;
+                                                }
+                                                #Tools {
+                                                    margin-left: 62px;
+                                                }
+                                                #AbouteBay {
+                                                    /* border: 2px solid black; */
+                                                    margin-left: 23%;
+                                                    margin-top: -3%;
+                                                }
+                                                #Community {
+                                                    /* border: 2px solid black; */
+                                                    margin-top: -5%;
+                                                }
+                                            }
+                                            
+                                            @media screen and (min-width: 1517px) {
+                                                .container1 .Right {
+                                                    margin-top: 76px;
+                                                }
+                                                .container1 .Right #Search {
+                                                    min-width: 137px;
+                                                }
+                                                .container1 #AllCat button {
+                                                    margin-left: 999px;
+                                                    margin-top: -20px;
+                                                }
+                                                .container1 .Mid input {
+                                                    margin: -18px -154px;
+                                                    width: 766px;
+                                                }
+                                                .shop>#ShopByCategories {
+                                                    width: 76px;
+                                                }
+                                                .shop {
+                                                    margin-left: -33px;
+                                                }
+                                                .container1 .left img {
+                                                    width: 150px;
+                                                    padding: 8px 28px;
+                                                    margin: -21px;
+                                                }
+                                                #AbouteBay {
+                                                    margin-left: 21%;
+                                                }
+                                            }
+                                            
+                                            @media screen and (min-width: 1366px) {
+                                                .container1 .Right {
+                                                    margin-top: 78px;
+                                                }
+                                                .line {
+                                                    margin-top: 4%;
+                                                    /* border: 2px solid gray; */
+                                                }
+                                                .container1 #AllCat button {
+                                                    margin-top: -27px;
+                                                    margin-left: 849px;
+                                                }
+                                                .container1 .Mid input {
+                                                    margin: -26px -116px;
+                                                    width: 578px;
+                                                }
+                                                .shop>#ShopByCategories {
+                                                    width: 106px;
+                                                }
+                                                .container1 .left img {
+                                                    width: 136px;
+                                                    padding: 9px 28px;
+                                                    margin: -16px;
+                                                }
+                                                .container4 {
+                                                    width: 1538px;
+                                                }
+                                                #HelpContact {
+                                                    margin-left: 80%;
+                                                    margin-top: -15%;
+                                                }
+                                                #AbouteBay {
+                                                    margin-left: 23%;
+                                                    margin-top: -3%;
+                                                }
+                                                #Tools {
+                                                    margin-left: 63px;
+                                                }
+                                            }
